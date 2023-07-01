@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "neuton-800";
+    src: url("./assets/Images/Fonts/Neuton-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "neuton-500";
+    src: url("./assets/Images/Fonts/Neuton-Regular.ttf");
+}
+
+html,body{
+    font-family: "neuton-500";
+}
